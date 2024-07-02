@@ -20,7 +20,7 @@ sudo apt-get install nodejs -y
 
 # Clone the repository
 
-git clone https://github.com/africacloudpapa/new-react-app.git
+https://github.com/ananth-ms/React-app.git
 
 # Change to new-react-app folder
 
