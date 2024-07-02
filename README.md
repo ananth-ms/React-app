@@ -1,4 +1,4 @@
-# Deploy React App to Server
+# Deploy React App
 
 Node and npm installation
 
