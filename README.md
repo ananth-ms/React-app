@@ -1,4 +1,5 @@
-# React-app
+# Deploy React App to Server
+
 Node and npm installation
 
 sudo apt-get update
@@ -16,3 +17,29 @@ echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.co
 sudo apt-get update
 
 sudo apt-get install nodejs -y
+
+# Clone the repository
+
+git clone https://github.com/africacloudpapa/new-react-app.git
+
+# Change to new-react-app folder
+
+cd new-react-app
+
+# Install packages
+
+npm install
+
+# Build the application
+
+npm run build
+
+# install nginx
+
+sudo apt install nginx -y
+
+# Copy the build file to nginx html folder
+
+sudo cp -r build/* /var/www/html
+
+
